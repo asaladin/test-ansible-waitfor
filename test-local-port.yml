@@ -2,5 +2,7 @@
   tasks:
     - name: say hello
       shell: echo hello
+    - name: try to open local port
+      shell: nc -l 8888 &
     - name: wait for local port
       wait_for: host=localhost port=8888 timeout=20
