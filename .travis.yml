@@ -18,4 +18,4 @@ install:
 - pip install ansible==$ANSIBLE_VERSION
 
 script:
-- ansible-playbook -i "localhost" test-local-port.yml --connection=local --sudo 
+- ansible-playbook -i "localhost," test-local-port.yml --connection=local --sudo 
