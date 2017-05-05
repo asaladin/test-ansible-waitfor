@@ -1,0 +1,4 @@
+this is a test repository for ansible and travis-ci
+
+from another repository I have a problem with wait_for and --connection=local and I need to investigate on a minimal playbook running either locally or on travis-ci. 
+
