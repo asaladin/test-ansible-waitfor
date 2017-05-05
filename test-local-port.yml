@@ -1,0 +1,6 @@
+- hosts: localhost
+  tasks:
+    - name: say hello
+      shell: echo hello
+    - name: wait for local port
+      wait_for: host=localhost port=8888 timeout=20
